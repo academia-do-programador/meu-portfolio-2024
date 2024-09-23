@@ -1,14 +1,24 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
+import { ItemPortfolio } from "./models/item-portfolio";
+import { NgClass, NgForOf } from "@angular/common";
 
 @Component({
-  selector: 'app-portfolio',
+  selector: "app-portfolio",
   standalone: true,
-  imports: [],
-  templateUrl: './portfolio.component.html',
-  animations: [
-    
-  ]
+  imports: [NgForOf, NgClass],
+  templateUrl: "./portfolio.component.html",
 })
 export class PortfolioComponent {
-
+  public itensPorfolio: ItemPortfolio[] = [
+    {
+      href: "#",
+      imgUrl: "/showcase-locadora.gif",
+      descricao: "Locadora de Veículos",
+    },
+    {
+      href: "#",
+      imgUrl: "/showcase-locadora.gif",
+      descricao: "Locadora de Veículos",
+    },
+  ];
 }
