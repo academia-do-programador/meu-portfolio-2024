@@ -12,7 +12,7 @@ export class ExperienciasComponent {
   experiencias: ItemExperiencias[] = [
     {
       duracaoExperiencia: "Dez/2021 - Atualmente",
-      imgUrl: "/logo-academia.png",
+      imgUrl: "assets/logo-academia.png",
       alt: "Logo da Academia do Programador",
       titulo: "Professor de Programação",
       descricao: `
@@ -30,7 +30,7 @@ export class ExperienciasComponent {
     },
     {
       duracaoExperiencia: "Mar/2021 - Dez/2021",
-      imgUrl: "/logo-ndd-secundaria.png",
+      imgUrl: "assets/logo-ndd-secundaria.png",
       alt: "Logo da NDD",
       titulo: "Estagiário",
       descricao: `

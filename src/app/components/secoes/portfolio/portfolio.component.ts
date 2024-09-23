@@ -12,12 +12,7 @@ export class PortfolioComponent {
   public itensPorfolio: ItemPortfolio[] = [
     {
       href: "#",
-      imgUrl: "/showcase-locadora.gif",
-      descricao: "Locadora de Veículos",
-    },
-    {
-      href: "#",
-      imgUrl: "/showcase-locadora.gif",
+      imgUrl: "assets/showcase-locadora.gif",
       descricao: "Locadora de Veículos",
     },
   ];
