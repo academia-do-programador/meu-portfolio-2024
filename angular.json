@@ -98,7 +98,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "",
+            "baseHref": "https://academia-do-programador.github.io/meu-portfolio-2024/",
             "repo": "https://github.com/academia-do-programador/meu-portfolio-2024.git"
           }
         }
